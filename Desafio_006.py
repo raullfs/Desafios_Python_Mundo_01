@@ -1,0 +1,11 @@
+#DESAFIO 006
+#Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+
+num = int(input('Digite um número: '))
+dob = num * 2
+tri = num * 3
+raiz = num ** (1/2)
+print(f'''O número digitado foi {num}. 
+O seu dobro é {dob}.
+Seu triplo é {tri}.
+E sua raiz quadrada é {raiz:.2f}.''')
